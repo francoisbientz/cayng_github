@@ -30,12 +30,7 @@ public abstract class _Person extends PersistentObject {
     public static final StringProperty<String> NOM = PropertyFactory.createString("nom", String.class);
 
     protected String nom;
-    
-    //test complétion apres un point
-    
-	/*
-	 * public void test() { ObjectSelect.query(Person.class) .where(Person.NOM. }
-	 */
+
 
     public void setNom(String nom) {
         beforePropertyWrite("nom", this.nom, nom);
