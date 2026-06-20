@@ -3,3 +3,5 @@ target/
 .project
 .settings/
 *.class
+src/main/resources/cayenne/cayenne-project.xml
+src/main/resources/cayenne/cayenne-project.xml
